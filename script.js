@@ -100,20 +100,6 @@ if (scrollBtn) {
   scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 }
 
-/* ── Render branding tags ── */
-const brandingContainer = document.querySelector('[id="services"] .reveal:last-child .flex.flex-wrap');
-if (!brandingContainer) {
-  const items = ['T-Shirts','Overcoats','Overalls','Hats','Umbrellas','Mugs','Pens','Flash Disks','Flags','Promotional Items'];
-  document.querySelectorAll('#services .reveal').forEach(el => {
-    const wrap = el.querySelector('.flex.flex-wrap');
-    if (wrap) {
-      wrap.innerHTML = items.map(item =>
-        `<span class="px-4 py-2 border border-zinc-700 font-condensed text-xs text-zinc-400 tracking-wider uppercase hover:border-orange-500/50 hover:text-orange-400 transition-colors cursor-default" style="font-family:'Barlow Condensed',sans-serif;">${item}</span>`
-      ).join('');
-    }
-  });
-}
-
 /* ── Hero parallax (subtle) ── */
 window.addEventListener('scroll', () => {
   const hero = document.getElementById('hero');

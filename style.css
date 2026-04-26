@@ -538,9 +538,6 @@ footer { background: #050505; }
   .orange-stroke { -webkit-text-stroke-width: 1px; }
   .float-shape { display: none; }
   .hero-badge { margin-bottom: 1.5rem; }
-  .portfolio-item.col-span-2 { grid-column: span 2 / span 2; }
-  .portfolio-item.row-span-2 { grid-row: span 1 / span 1; height: 250px !important; }
-  .portfolio-item { height: 180px !important; }
   .contact-card { padding: 24px; }
   .phone-display { font-size: 2.2rem; }
 }

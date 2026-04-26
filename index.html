@@ -344,12 +344,99 @@
     </div>
 
     <!-- Expanded branding items -->
-    <div class="mt-12 reveal">
-      <div class="font-condensed text-xs text-zinc-500 tracking-[0.25em] uppercase mb-5">Branding Items Include</div>
-      <div class="flex flex-wrap gap-3">
-        {['T-Shirts','Overcoats','Overalls','Hats','Umbrellas','Mugs','Pens','Flash Disks','Flags','Promotional Items'].map(item => `
-          <span class="px-4 py-2 border border-zinc-700 font-condensed text-xs text-zinc-400 tracking-wider uppercase hover:border-orange-500/50 hover:text-orange-400 transition-colors cursor-default">${item}</span>
-        `).join('')}
+    <div class="mt-20 reveal">
+      <div class="font-condensed text-xs text-zinc-500 tracking-[0.25em] uppercase mb-8 text-center md:text-left">Full Branding Range</div>
+      
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+        <!-- T-Shirts -->
+        <div class="group relative aspect-square overflow-hidden bg-zinc-900 border border-white/5">
+          <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=400&q=80" alt="Branded T-Shirts" class="w-full h-full object-cover opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
+          <div class="absolute inset-0 flex items-center justify-center p-4">
+            <span class="font-condensed text-[10px] md:text-xs text-white font-bold tracking-[0.2em] uppercase text-center">T-Shirts</span>
+          </div>
+          <div class="absolute bottom-0 left-0 w-full h-0.5 bg-orange-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+        </div>
+
+        <!-- Overcoats -->
+        <div class="group relative aspect-square overflow-hidden bg-zinc-900 border border-white/5">
+          <img src="https://images.unsplash.com/photo-1544022613-e87dc75a784a?w=400&q=80" alt="Branded Overcoats" class="w-full h-full object-cover opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
+          <div class="absolute inset-0 flex items-center justify-center p-4">
+            <span class="font-condensed text-[10px] md:text-xs text-white font-bold tracking-[0.2em] uppercase text-center">Overcoats</span>
+          </div>
+          <div class="absolute bottom-0 left-0 w-full h-0.5 bg-orange-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+        </div>
+
+        <!-- Overalls -->
+        <div class="group relative aspect-square overflow-hidden bg-zinc-900 border border-white/5">
+          <img src="https://images.unsplash.com/photo-1594932224828-b4b059b6f68e?w=400&q=80" alt="Branded Overalls" class="w-full h-full object-cover opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
+          <div class="absolute inset-0 flex items-center justify-center p-4">
+            <span class="font-condensed text-[10px] md:text-xs text-white font-bold tracking-[0.2em] uppercase text-center">Overalls</span>
+          </div>
+          <div class="absolute bottom-0 left-0 w-full h-0.5 bg-orange-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+        </div>
+
+        <!-- Hats -->
+        <div class="group relative aspect-square overflow-hidden bg-zinc-900 border border-white/5">
+          <img src="https://images.unsplash.com/photo-1533055640609-24b498dfd74c?w=400&q=80" alt="Branded Hats" class="w-full h-full object-cover opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
+          <div class="absolute inset-0 flex items-center justify-center p-4">
+            <span class="font-condensed text-[10px] md:text-xs text-white font-bold tracking-[0.2em] uppercase text-center">Hats</span>
+          </div>
+          <div class="absolute bottom-0 left-0 w-full h-0.5 bg-orange-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+        </div>
+
+        <!-- Umbrellas -->
+        <div class="group relative aspect-square overflow-hidden bg-zinc-900 border border-white/5">
+          <img src="https://images.unsplash.com/photo-1501166222995-ff31c7e93cef?w=400&q=80" alt="Branded Umbrellas" class="w-full h-full object-cover opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
+          <div class="absolute inset-0 flex items-center justify-center p-4">
+            <span class="font-condensed text-[10px] md:text-xs text-white font-bold tracking-[0.2em] uppercase text-center">Umbrellas</span>
+          </div>
+          <div class="absolute bottom-0 left-0 w-full h-0.5 bg-orange-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+        </div>
+
+        <!-- Mugs -->
+        <div class="group relative aspect-square overflow-hidden bg-zinc-900 border border-white/5">
+          <img src="https://images.unsplash.com/photo-1517256011273-772907409219?w=400&q=80" alt="Branded Mugs" class="w-full h-full object-cover opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
+          <div class="absolute inset-0 flex items-center justify-center p-4">
+            <span class="font-condensed text-[10px] md:text-xs text-white font-bold tracking-[0.2em] uppercase text-center">Mugs</span>
+          </div>
+          <div class="absolute bottom-0 left-0 w-full h-0.5 bg-orange-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+        </div>
+
+        <!-- Pens -->
+        <div class="group relative aspect-square overflow-hidden bg-zinc-900 border border-white/5">
+          <img src="https://images.unsplash.com/photo-1585336139118-2433f0a59f35?w=400&q=80" alt="Branded Pens" class="w-full h-full object-cover opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
+          <div class="absolute inset-0 flex items-center justify-center p-4">
+            <span class="font-condensed text-[10px] md:text-xs text-white font-bold tracking-[0.2em] uppercase text-center">Pens</span>
+          </div>
+          <div class="absolute bottom-0 left-0 w-full h-0.5 bg-orange-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+        </div>
+
+        <!-- Flash Disks -->
+        <div class="group relative aspect-square overflow-hidden bg-zinc-900 border border-white/5">
+          <img src="https://images.unsplash.com/photo-1588666309990-d68f08e3d4a6?w=400&q=80" alt="Branded Flash Disks" class="w-full h-full object-cover opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
+          <div class="absolute inset-0 flex items-center justify-center p-4">
+            <span class="font-condensed text-[10px] md:text-xs text-white font-bold tracking-[0.2em] uppercase text-center">Flash Disks</span>
+          </div>
+          <div class="absolute bottom-0 left-0 w-full h-0.5 bg-orange-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+        </div>
+
+        <!-- Flags -->
+        <div class="group relative aspect-square overflow-hidden bg-zinc-900 border border-white/5">
+          <img src="https://images.unsplash.com/photo-1523450001312-daa4e2e1c9c2?w=400&q=80" alt="Branded Flags" class="w-full h-full object-cover opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
+          <div class="absolute inset-0 flex items-center justify-center p-4">
+            <span class="font-condensed text-[10px] md:text-xs text-white font-bold tracking-[0.2em] uppercase text-center">Flags</span>
+          </div>
+          <div class="absolute bottom-0 left-0 w-full h-0.5 bg-orange-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+        </div>
+
+        <!-- Promotional Items -->
+        <div class="group relative aspect-square overflow-hidden bg-zinc-900 border border-white/5">
+          <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?w=400&q=80" alt="Promotional Items" class="w-full h-full object-cover opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
+          <div class="absolute inset-0 flex items-center justify-center p-4">
+            <span class="font-condensed text-[10px] md:text-xs text-white font-bold tracking-[0.2em] uppercase text-center">Promo Items</span>
+          </div>
+          <div class="absolute bottom-0 left-0 w-full h-0.5 bg-orange-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -374,10 +461,10 @@
     </div>
 
     <!-- Portfolio Grid -->
-    <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3">
+    <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-3 grid-flow-row-dense">
 
       <!-- Large item -->
-      <div class="portfolio-item col-span-2 row-span-2 h-80 md:h-auto reveal-scale delay-1" style="min-height: 300px;">
+      <div class="portfolio-item col-span-2 row-span-2 aspect-[4/5] md:aspect-auto reveal-scale delay-1">
         <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80" alt="Architecture project" loading="lazy" />
         <div class="portfolio-overlay">
           <span class="portfolio-tag">Architecture</span>
@@ -387,7 +474,7 @@
       </div>
 
       <!-- Smaller items -->
-      <div class="portfolio-item h-44 reveal-scale delay-2">
+      <div class="portfolio-item aspect-square reveal-scale delay-2">
         <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600&q=80" alt="Graphic design brand identity" loading="lazy" />
         <div class="portfolio-overlay">
           <span class="portfolio-tag">Graphic Design</span>
@@ -395,7 +482,7 @@
         </div>
       </div>
 
-      <div class="portfolio-item h-44 reveal-scale delay-3">
+      <div class="portfolio-item aspect-square reveal-scale delay-3">
         <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="Large format banner printing" loading="lazy" />
         <div class="portfolio-overlay">
           <span class="portfolio-tag">Printing</span>
@@ -403,7 +490,7 @@
         </div>
       </div>
 
-      <div class="portfolio-item h-44 reveal-scale delay-2">
+      <div class="portfolio-item aspect-square reveal-scale delay-2">
         <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&q=80" alt="Interior office design" loading="lazy" />
         <div class="portfolio-overlay">
           <span class="portfolio-tag">Interior</span>
@@ -411,7 +498,7 @@
         </div>
       </div>
 
-      <div class="portfolio-item h-44 reveal-scale delay-3">
+      <div class="portfolio-item aspect-square reveal-scale delay-3">
         <img src="https://images.unsplash.com/photo-1583394293214-0b3e4c5d0a23?w=600&q=80" alt="Uniform and merchandise branding" loading="lazy" />
         <div class="portfolio-overlay">
           <span class="portfolio-tag">Branding</span>
@@ -420,7 +507,7 @@
       </div>
 
       <!-- Wide item -->
-      <div class="portfolio-item col-span-2 h-44 reveal-scale delay-4">
+      <div class="portfolio-item col-span-2 aspect-[2/1] reveal-scale delay-4">
         <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80" alt="Building construction site" loading="lazy" />
         <div class="portfolio-overlay">
           <span class="portfolio-tag">Construction</span>
